@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="arrow-lift" unicode="&#59203;" d="M641.28 617.386667l-45.226667 45.226666-278.634666-278.762666 278.613333-278.485334 45.248 45.269334-233.365333 233.237333z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="color" unicode="&#59208;" d="M883.84 684.501333v-186.410666a96 96 0 0 0-96-96H534.826667v-49.173334h7.637333a64 64 0 0 0 64-64V85.333333a64 64 0 0 0-64-64h-79.253333a64 64 0 0 0-64 64v203.584a64 64 0 0 0 64 64h7.616v113.173334H787.84a32 32 0 0 1 32 32V684.501333h64zM542.485333 288.917333h-79.253333V85.333333h79.253333v203.584zM727.765333 746.666667a64 64 0 0 0 64-64v-120.682667a64 64 0 0 0-64-64H213.333333a64 64 0 0 0-64 64V682.666667a64 64 0 0 0 64 64h514.432z m0-64H213.333333v-120.682667h514.432V682.666667z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="arrow-down" unicode="&#59314;" d="M500.8 291.221L267.307 524.608l-45.227-45.27 278.741-278.613L779.307 479.34l-45.248 45.248z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>
