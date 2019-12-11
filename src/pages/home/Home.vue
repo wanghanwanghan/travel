@@ -1,7 +1,7 @@
 <template>
     <div>
       <home-header></home-header>
-      hello
+      hello123
     </div>
 </template>
 
