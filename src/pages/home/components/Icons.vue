@@ -16,73 +16,14 @@
 <script>
   export default {
     name : 'HomeIcons',
+    props: {
+      iconList: Array
+    },
     data () {
       return {
         swiperOption : {
           autoplay : false
-        },
-        iconList: [
-          {
-            id: '01',
-            imgUrl: '//pic.c-ctrip.com/platform/h5/home/pic-tmh-03.png',
-            desc: '热门景点'
-          },
-          {
-            id: '02',
-            imgUrl: '//pic.c-ctrip.com/platform/h5/home/pic-tmh-03.png',
-            desc: '热门景点'
-          },
-          {
-            id: '03',
-            imgUrl: '//pic.c-ctrip.com/platform/h5/home/pic-tmh-03.png',
-            desc: '热门景点'
-          },
-          {
-            id: '04',
-            imgUrl: '//pic.c-ctrip.com/platform/h5/home/pic-tmh-03.png',
-            desc: '热门景点'
-          },
-          {
-            id: '05',
-            imgUrl: '//pic.c-ctrip.com/platform/h5/home/pic-tmh-03.png',
-            desc: '热门景点'
-          },
-          {
-            id: '06',
-            imgUrl: '//pic.c-ctrip.com/platform/h5/home/pic-tmh-03.png',
-            desc: '热门景点'
-          },
-          {
-            id: '07',
-            imgUrl: '//pic.c-ctrip.com/platform/h5/home/pic-tmh-03.png',
-            desc: '热门景点'
-          },
-          {
-            id: '08',
-            imgUrl: '//pic.c-ctrip.com/platform/h5/home/pic-tmh-03.png',
-            desc: '热门景点'
-          },
-          {
-            id: '09',
-            imgUrl: '//pic.c-ctrip.com/platform/h5/home/pic-tmh-03.png',
-            desc: '热门景点'
-          },
-          {
-            id: '10',
-            imgUrl: '//pic.c-ctrip.com/platform/h5/home/pic-tmh-03.png',
-            desc: '热门景点'
-          },
-          {
-            id: '11',
-            imgUrl: '//pic.c-ctrip.com/platform/h5/home/pic-tmh-03.png',
-            desc: '热门景点'
-          },
-          {
-            id: '12',
-            imgUrl: '//pic.c-ctrip.com/platform/h5/home/pic-tmh-03.png',
-            desc: '热门景点'
-          }
-        ]
+        }
       }
     },
     computed : {
