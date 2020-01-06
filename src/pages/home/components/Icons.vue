@@ -103,6 +103,7 @@
   .icons >>> .swiper-container
     height 0
     padding-bottom 50%
+    margin-top .1rem
     .icon
       height 0
       position relative
