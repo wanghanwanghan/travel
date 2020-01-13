@@ -1,32 +1,15 @@
 <template>
   <ul class="list">
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
+    <li class="item" v-for="(item,index) of cities" :key="index">{{index}}</li>
   </ul>
 </template>
 
 <script>
   export default {
-    name: 'CityAlphabet'
+    name: 'CityAlphabet',
+    props: {
+      cities: Object
+    }
   }
 </script>
 
@@ -42,7 +25,7 @@
     bottom 0
     width .4rem
   .item
-    line-height .4rem
+    line-height .45rem
     text-align center
     color $bgColor
 
