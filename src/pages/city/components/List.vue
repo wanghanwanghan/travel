@@ -30,7 +30,7 @@
           </div>
         </div>
       </div>
-      <div class="area" v-for="(item1,index1) of cities" :key="index1">
+      <div class="area" v-for="(item1,index1) of cities" :key="index1" :ref="index1">
         <div class="title border-topbottom">{{index1}}</div>
         <div class="item-list" v-for="(item2,index2) of item1" :key="index2">
           <div class="item border-bottom">{{item2.name}}</div>
@@ -46,10 +46,21 @@
     name: 'CityList',
     props: {
       hot: Array,
-      cities: Object
+      cities: Object,
+      letter: String
     },
     mounted () {
       this.scroll = new Bscroll(this.$refs.wrapper)
+    },
+    //监听器
+    watch: {
+      //监听letter的变化
+      letter () {
+        if (this.letter) {
+          const ele = this.$refs[this.letter][0]
+          this.scroll.scrollToElement(ele)
+        }
+      }
     }
   }
 </script>
