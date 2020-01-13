@@ -26,7 +26,6 @@
         axios.get('/api/city.json').then(this.getCityInfoSucc)
       },
       getCityInfoSucc (res) {
-        console.log(res)
         this.cities = res.data.data.cities
         this.hotCities = res.data.data.hotCities
       },

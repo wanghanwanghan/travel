@@ -1,6 +1,6 @@
 <template>
     <div>
-      <home-header :city="city"></home-header>
+      <home-header></home-header>
       <home-swiper :list="swiperList"></home-swiper>
       <home-icons :iconList="iconList"></home-icons>
       <home-recommend :list="recommendList"></home-recommend>
@@ -31,8 +31,6 @@
         axios.get('/api/index.json').then(this.getHomeInfoSucc)
       },
       getHomeInfoSucc (res) {
-        console.log(res)
-        this.city=res.data.city;
         this.swiperList=res.data.data.swiperList
         this.iconList=res.data.data.iconList
         this.recommendList=res.data.data.recommendList
@@ -41,7 +39,6 @@
     },
     data () {
       return {
-        city : '',
         swiperList : [],
         iconList : [],
         recommendList:[],
